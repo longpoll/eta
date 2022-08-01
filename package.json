@@ -1,0 +1,31 @@
+{
+  "name": "@veluga/eta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc -P ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vladislav805/eta.git"
+  },
+  "keywords": [
+    "eta"
+  ],
+  "author": "Vladislav Veluga <vlad@velu.ga> (https://velu.ga/)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/vladislav805/eta/issues"
+  },
+  "homepage": "https://github.com/vladislav805/eta#readme",
+  "devDependencies": {
+    "@types/node": "18.6.3",
+    "typescript": "4.7.4"
+  }
+}
