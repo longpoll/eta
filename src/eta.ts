@@ -58,7 +58,7 @@ export class ETA {
             elapsed,
             estimated,
             rate: rate.toPrecision(4),
-            fraction: (this.done / this.total).toPrecision(2),
+            fraction: ((this.done / this.total) * 100).toPrecision(2),
             etaSeconds: eta.toPrecision(4),
             etaHumanized: this._formatTime(eta),
             text: this.lastText,
